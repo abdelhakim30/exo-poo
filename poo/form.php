@@ -8,7 +8,7 @@ class Form{
 
       public function __construct($data = array()){
         $this->data = $data;
-
+      }
 
       private function surround ($html){
         return "<{$this->surround}>{$html}</{$this->surround}>";
